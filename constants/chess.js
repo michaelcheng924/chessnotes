@@ -35,9 +35,25 @@ export const CHESS = [
     Attack queen-side pawn structure`,
   },
   {
-    label: "Queen's Gambit Declined (Classical)",
-    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3",
-    notes: `Black's bishop isn't helpful<br />
-    Attack queen-side pawn structure`,
+    label: "Queen's Gambit Declined (Semi-Tarrasch)",
+    pgn:
+      "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4 9. Bd2 Bxd2 10. Qxd2 O-O",
+    notes: `Knight can take pawn`,
+  },
+  {
+    label: "Queen's Gambit Declined (Ragozin)",
+    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Bb4",
+    notes: `Weakens white's pawn structure, e4 square`,
+  },
+  {
+    label: "Queen's Gambit Declined (Cambridge Springs)",
+    pgn: "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. Nf3 c6 6. e3 Qa5",
+    notes: `Black unpins queen, white needs to move white to unblock and support e4`,
+  },
+  {
+    label: "Queen's Gambit Declined (Lasker)",
+    pgn:
+      "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 0-0 6. Nf3 h6 7. Bh4 Ne4",
+    notes: `Black unpins queen, white needs to move white to unblock and support e4`,
   },
 ];
