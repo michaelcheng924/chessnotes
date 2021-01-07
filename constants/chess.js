@@ -25,7 +25,7 @@ export const CHESS = [
   {
     label: "Queen's Gambit Declined (Tarrasch)",
     pgn:
-      "1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nf4",
+      "1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nc6 6. g3 Nf6 7. Bg2 Be7 8. O-O O-O 9. Bg5 cxd4 10. Nxd4",
     notes: "Black has isolated queen's pawn in exchange for piece activity",
   },
   {
@@ -53,7 +53,7 @@ export const CHESS = [
   {
     label: "Queen's Gambit Declined (Lasker)",
     pgn:
-      "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 0-0 6. Nf3 h6 7. Bh4 Ne4",
+      "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4",
     notes: `Black unpins queen, white needs to move white to unblock and support e4`,
   },
 ];
